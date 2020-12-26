@@ -253,18 +253,18 @@ function debugPercentage() {
     console.log(tlServicesScroll.progress())
 }
 
-tlServicesScroll.fromTo('#main-services', {
+tlServicesScroll.fromTo('#about-me', {
     x: '200%'
 }, {
     x: 0
 })
 
-const serviceElement = document.querySelector('#main-services');
+const serviceElement = document.querySelector('#about-me');
 
 let homeController = new ScrollMagic.Controller();
 
 let serviceScene = new ScrollMagic.Scene({
-    triggerElement: '#main-services',
+    triggerElement: '#about-me',
     triggerHook: 1,
     duration: serviceElement.offsetHeight
 })
