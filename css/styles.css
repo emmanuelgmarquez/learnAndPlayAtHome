@@ -2,7 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
 
 * {
-  font-family: 'Oswald', sans-serif;
   box-sizing: border-box;
 }
 
@@ -16,7 +15,6 @@ html {
 
 body {
   background-color: white;
-  
 }
 
 .loading-bg {
@@ -885,7 +883,7 @@ footer .copywrite p{
 
 /* --------------------tablet*----------------- */ 
 
-@media only screen and (max-width: 960px) {
+@media only screen and (max-width: 1025px) {
   body{
     overflow-x: hidden;
   }
