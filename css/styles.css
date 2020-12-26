@@ -118,11 +118,11 @@ header .logo p {
 
 
 /* Scroll Section */
-#main-services{
+#about-me{
   padding-top: 150px;
 }
 
-#main-services .black-bg{
+#about-me .sliding-bg{
   height: 80vh;
   display: flex;
   justify-content: center;
@@ -130,24 +130,23 @@ header .logo p {
   color: white;
 }
 
-#main-services .container{
-  
+#about-me .container{
   display: grid;
-      grid-template-columns: 50% 50%;
+  grid-template-columns: 50% 50%;
 }
 
-#main-services .text{
+#about-me .text{
   padding: 80px 0 0 80px;
   width: 80%;
 }
 
-#main-services h2{
+#about-me h2{
   font-size: 3rem;
   color: black;
   text-transform: uppercase;
   margin-bottom: 5rem;
 }
-#main-services p{
+#about-me p{
   line-height: 3rem;
   font-size: 1.3rem;
   font-weight: 200;
@@ -155,41 +154,31 @@ header .logo p {
   margin-bottom: 5rem;
 }
 
-#main-services img{
+#about-me img{
   width: 100%;
   object-fit: cover;
 }
 
-#main-services .services{
+#about-me .services{
   display: grid;
   color: white;
   min-width: 1200px;
   width: 100%;
   grid-template-columns: repeat(3, 1fr);
-  /* background: red; */
 }
 
-#main-services .services .service{
+#about-me .services .service{
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
 
-#main-services .services h3{
+#about-me .services h3{
   font-size: 1.6rem;
 }
 
-#main-services .services .service .icon-circle{
-  background: rgba(255, 255, 255, .4);
-  height: 100px;
-  width: 100px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 50%;
-  margin-bottom: 2rem;
-}
+
 
 
 
@@ -271,6 +260,7 @@ header .logo p {
 }
 
 #services .breakdown .service2 img{
+  padding-top: 60px;
   display: block;
   margin: 0 auto;
   height: 70%;
@@ -356,13 +346,14 @@ header .logo p {
   padding: 20px 0;
   color: black;
   line-height: 2rem;
-  font-size: 1.0rem;
+  font-size: 1rem;
   font-weight: 200;
   text-align: center;
 }
 
 #testimonial-section .testimonials h6{
   text-align: center;
+  font-size: 1.1rem;
 }
 
 
@@ -536,12 +527,6 @@ footer .copywrite p{
   object-position: center;
 }
 
-#gallery .white-bg img {
-  width: 100%;
-  height: 300px;
-  object-fit: cover;
-  object-position: center;
-}
 
 
 
@@ -581,7 +566,7 @@ footer .copywrite p{
 }
 
 #price .breakdown{
-  
+  cursor: pointer;
   justify-content: center;
   align-items: center;
   display: grid;
@@ -816,3 +801,161 @@ footer .copywrite p{
   color: green;
   padding: 0 5px 10px 0;
 } 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* --------------------larger*----------------- */
+
+@media only screen and (min-width: 1950px) {
+  #about-me .sliding-bg{
+    padding-top: 450px;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+
+  #about-me img{
+    height: 80%;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  #services .breakdown{
+    grid-gap: 200px;
+  } 
+
+  #services .wrapper{
+    padding: 200px 500px 0 500px;
+  } 
+
+  #services .breakdown .service1 img{
+    padding-top: 150px;
+  } 
+
+  #services .breakdown .service2 img{
+    padding-top: 20px;
+  } 
+
+  #services .breakdown .service3 img{
+    padding-top: 150px;
+  } 
+
+  #testimonial-section .testimonials p{
+    font-size: 1.2rem;
+  }
+
+  #testimonial-section .testimonials h6{
+    font-size: 1.3rem;
+  }
+
+
+
+  #gallery .white-bg h2 {
+    padding: 100px 0 50px 0;
+  }
+
+  #gallery .white-bg img {
+    width: 750px;
+  }
+  
+}
+
+
+
+
+
+/* --------------------tablet*----------------- */ 
+
+@media only screen and (max-width: 960px) {
+  body{
+    overflow-x: hidden;
+  }
+
+  #home .quote {
+    padding: 100px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #about-me .sliding-bg{
+    padding: 850px 0;
+  }
+
+  #about-me .container{
+    display: block;
+  }
+
+  #services {
+    padding: 1400px 0 700px 0;
+  } 
+
+  #services .breakdown{
+    margin: 0 auto;
+    display: block;
+    width: 70%;
+  } 
+
+  #services .breakdown .service1{ 
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+  } 
+  #services .breakdown .service2{ 
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+  } 
+  #services .breakdown .service3{ 
+    padding-bottom: 50px;
+  } 
+
+  #testimonial-section{
+    padding: 1200px 50px 700px 50px;
+  }
+
+  #testimonial-section .testimonials{
+    display: block;
+  }
+
+  #testimonial-section .test1 img{
+    margin-top: 100px;
+  }
+
+  #testimonial-section .test2 img{
+    margin-top: 100px;
+  }
+  
+  #testimonial-section .test3 img{
+    margin-top: 100px;
+  }
+}
+
+
+
+
+
+/* // --------------------mobile*----------------- */
+
+@media only screen and (max-width: 600px) {
+  body{
+    overflow-x: hidden;
+  }
+}
