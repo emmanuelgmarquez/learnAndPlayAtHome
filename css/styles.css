@@ -41,13 +41,11 @@ header .logo {
   text-transform: uppercase;
   margin: 0 auto;
   font-size: 3rem;
-  font-family: 'Oswald', sans-serif;
 }
 
 header .logo a {
   color: black;
   text-decoration: none;
-  font-family: 'Oswald', sans-serif;
 }
 
 header .logo p {
@@ -58,7 +56,6 @@ header .logo p {
   text-align: center;
   color: black;
   text-decoration: none;
-  font-family: 'Oswald', sans-serif;
 }
 
  .menu ul {
@@ -74,7 +71,7 @@ header .logo p {
 }
 
 .menu li a {
-  font-family: 'Oswald', sans-serif;
+  
   font-size: 1rem;
   color: black;
   text-decoration: none;
@@ -103,7 +100,6 @@ header .logo p {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: 'Oswald', sans-serif;
 }
 
 #home .quote i{
@@ -117,7 +113,6 @@ header .logo p {
   font-weight: 400;
   font-size: 1rem;
   text-align: center;
-  font-family: 'Oswald', sans-serif;
 }
 
 
