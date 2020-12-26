@@ -944,6 +944,10 @@ footer .copywrite p{
   #testimonial-section .test3 img{
     margin-top: 100px;
   }
+
+  #price .breakdown{
+    display: block;
+  } 
 }
 
 
@@ -953,7 +957,57 @@ footer .copywrite p{
 /* // --------------------mobile*----------------- */
 
 @media only screen and (max-width: 600px) {
-  body{
-    overflow-x: hidden;
+  header .logo {
+    text-align: center;
   }
+
+  header .logo p {
+    border-bottom: 0;
+  }
+
+  #home .quote {
+    text-align: center;
+    padding: 50px 10px 0 10px;
+  }
+
+
+  #about-me{
+    padding-top: 0;
+  }
+
+  #about-me .sliding-bg{
+    padding-top: 620px;
+    height: 20%;
+  }
+
+  #about-me .container{
+    display: block;
+  }
+
+  #about-me .text{
+    padding: 0;
+    text-align: center;
+    width: 100%;
+  }
+
+  #services {
+    padding-top: 600px;
+  } 
+
+  #testimonial-section{
+    padding-top: 1650px;
+  }
+
+  footer{
+    padding: 450px 20px 40px 20px;
+  }
+
+  #gallery .white-bg ul {
+    display: block;
+  }
+
+
+#gallery .white-bg ul li {
+  padding: 20px 0;
+}
 }
