@@ -6,7 +6,7 @@
 }
 
 html {
-  font-family: 'Oswald', 'Roboto', sans-serif;
+  font-family: 'Oswald', sans-serif;
   height: 100vh;
   max-width: 2400px;
   overflow-x: hidden;
@@ -14,7 +14,6 @@ html {
 }
 
 body {
-  font-family: 'Oswald', 'Roboto', sans-serif;
   background-color: white;
 }
 
@@ -585,7 +584,6 @@ footer .copywrite p{
 } 
 
 #price .breakdown .service1 h1{
-  margin: 0;
   padding: 10px 0;
   color: black;
   text-align: center;
@@ -662,7 +660,6 @@ footer .copywrite p{
 } 
 
 #price .breakdown .service2 h1{
-  margin: 0;
   padding: 10px 0;
   color: black;
   text-align: center;
@@ -739,7 +736,6 @@ footer .copywrite p{
 } 
 
 #price .breakdown .service3 h1{
-  margin: 0;
   padding: 10px 0;
   color: black;
   text-align: center;
