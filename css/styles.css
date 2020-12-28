@@ -1,3 +1,4 @@
+
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700");
 
@@ -6,7 +7,7 @@
 }
 
 html {
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Oswald','Roboto', sans-serif;
   height: 100vh;
   max-width: 2400px;
   overflow-x: hidden;
@@ -203,6 +204,7 @@ header .logo p {
 
 #services .breakdown .service1:hover{
   transform: translateY(-30px);
+  background: rgba(0, 0, 0, 0.1);
 } 
 
 #services .breakdown .service1 h6{
@@ -240,6 +242,7 @@ header .logo p {
 
 #services .breakdown .service2:hover{
   transform: translateY(-30px);
+  background: rgba(0, 0, 0, 0.1);
 } 
 
 #services .breakdown .service2 h6{
@@ -274,8 +277,9 @@ header .logo p {
   
 } 
 
-#services .breakdown .service3:hover{
+#services .breakdown .service3:hover {
   transform: translateY(-30px);
+  background: rgba(0, 0, 0, 0.1);
 } 
 
 #services .breakdown .service3 h6{
