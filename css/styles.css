@@ -189,6 +189,7 @@ header .logo p {
 } 
 
 #services .breakdown{
+  cursor: pointer;
   justify-content: center;
   display: grid;
   grid-template-columns: 28% 28% 28%;
